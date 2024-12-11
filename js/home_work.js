@@ -24,25 +24,25 @@ gmailButton.onclick = () => {
 // HOME WORK 1 party 2
 
 
-const parentBlock = document.querySelector('.parent_block');
-const childBlock = document.querySelector('.child_block');
-
-const moveBlock = (position) => {
-    const parentWidth = parentBlock.clientWidth;
-    const childWidth = childBlock.clientWidth;
-
-    if (position < parentWidth - childWidth) {
-        childBlock.style.left = `${position}px`;
-
-
-        requestAnimationFrame(() => moveBlock(position + 1));
-    } else if (position >= parentWidth && position <= childWidth) {
-    }
-
-};
-
-
-moveBlock(1);
+// const parentBlock = document.querySelector('.parent_block');
+// const childBlock = document.querySelector('.child_block');
+//
+// const moveBlock = (position) => {
+//     const parentWidth = parentBlock.clientWidth;
+//     const childWidth = childBlock.clientWidth;
+//
+//     if (position < parentWidth - childWidth) {
+//         childBlock.style.left = `${position}px`;
+//
+//
+//         requestAnimationFrame(() => moveBlock(position + 1));
+//     } else if (position >= parentWidth && position <= childWidth) {
+//     }
+//
+// };
+//
+//
+// moveBlock(1);
 
 
 
